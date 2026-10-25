@@ -58,7 +58,7 @@ export default function InteractiveEstimator() {
 - Estimated Total: ₹${total.toLocaleString('en-IN')} INR
 Could you please share the proposal and discuss requirements?`;
 
-    return `https://wa.me/?text=${encodeURIComponent(message)}`;
+    return `https://wa.me/919699603323?text=${encodeURIComponent(message)}`;
   };
 
   return (

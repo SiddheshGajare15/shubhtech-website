@@ -42,7 +42,7 @@ I am inquiring about: ${formData.projectType}.
 Budget: ${formData.budget}
 Phone: ${formData.phone || 'Not specified'}
 Message: ${formData.message || 'Looking forward to discussing website requirements.'}`;
-    window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, '_blank');
+    window.open(`https://wa.me/919699603323?text=${encodeURIComponent(text)}`, '_blank');
   };
 
   return (
@@ -92,7 +92,7 @@ Message: ${formData.message || 'Looking forward to discussing website requiremen
                 </div>
                 <div>
                   <h4 style={{ fontSize: '1.1rem', color: '#14532d', fontWeight: 700 }}>
-                    Fastest Response: WhatsApp
+                    Direct WhatsApp: +91 96996 03323
                   </h4>
                   <span style={{ fontSize: '0.75rem', color: '#166534', fontWeight: 600 }}>Mon – Sat • 9:30 AM to 7:30 PM IST</span>
                 </div>
@@ -103,19 +103,31 @@ Message: ${formData.message || 'Looking forward to discussing website requiremen
               </p>
 
               <a
-                href="https://wa.me/?text=Namaste%20ShubhTech%2C%20I%20would%20like%20to%20consult%20about%20a%20website%20project%20in%20India."
+                href="https://wa.me/919699603323?text=Namaste%20ShubhTech%2C%20I%20would%20like%20to%20consult%20about%20a%20website%20project%20in%20India."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp"
                 style={{ width: '100%', padding: '0.75rem 1rem' }}
               >
                 <MessageCircle size={18} />
-                <span>Open Direct WhatsApp Chat</span>
+                <span>Chat on WhatsApp (+91 96996 03323)</span>
               </a>
             </div>
 
             {/* Communication Details */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
+              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.85rem' }}>
+                <div style={{ width: '40px', height: '40px', borderRadius: '10px', background: '#f0f9ff', border: '1px solid #e0f2fe', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#0284c7', flexShrink: 0 }}>
+                  <MessageCircle size={18} />
+                </div>
+                <div>
+                  <div style={{ fontSize: '0.8rem', color: '#64748b', textTransform: 'uppercase', fontWeight: 600 }}>Phone / WhatsApp</div>
+                  <a href="https://wa.me/919699603323" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.95rem', fontWeight: 700, color: '#0b1a2d' }}>
+                    +91 96996 03323
+                  </a>
+                </div>
+              </div>
+
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.85rem' }}>
                 <div style={{ width: '40px', height: '40px', borderRadius: '10px', background: '#f0f9ff', border: '1px solid #e0f2fe', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#0284c7', flexShrink: 0 }}>
                   <Mail size={18} />

@@ -116,7 +116,7 @@ export default function Packages() {
               {/* Action Buttons */}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.65rem' }}>
                 <a
-                  href={`https://wa.me/?text=${encodeURIComponent(pkg.whatsappMessage)}`}
+                  href={`https://wa.me/919699603323?text=${encodeURIComponent(pkg.whatsappMessage)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-whatsapp"
@@ -170,7 +170,7 @@ export default function Packages() {
           </div>
 
           <a
-            href="https://wa.me/?text=Hi%20ShubhTech%2C%20I%20have%20questions%20regarding%20website%20packages%20and%20payment%20options."
+            href="https://wa.me/919699603323?text=Hi%20ShubhTech%2C%20I%20have%20questions%20regarding%20website%20packages%20and%20payment%20options."
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-navy"

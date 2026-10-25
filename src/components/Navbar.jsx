@@ -99,7 +99,7 @@ export default function Navbar() {
         {/* Desktop Action Buttons */}
         <div style={{ display: 'none', alignItems: 'center', gap: '0.85rem' }} className="desktop-actions">
           <a
-            href="https://wa.me/?text=Namaste%20ShubhTech%2C%20I%20am%20interested%20in%20building%20a%20website%20for%20my%20business."
+            href="https://wa.me/919699603323?text=Namaste%20ShubhTech%2C%20I%20am%20interested%20in%20building%20a%20website%20for%20my%20business."
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-whatsapp"
@@ -172,7 +172,7 @@ export default function Navbar() {
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginTop: '0.5rem' }}>
             <a
-              href="https://wa.me/?text=Namaste%20ShubhTech%2C%20I%20am%20interested%20in%20building%20a%20website%20for%20my%20business."
+              href="https://wa.me/919699603323?text=Namaste%20ShubhTech%2C%20I%20am%20interested%20in%20building%20a%20website%20for%20my%20business."
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-whatsapp"

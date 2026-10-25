@@ -47,7 +47,7 @@ export default function App() {
 
       {/* Persistent Floating WhatsApp Quick-Chat Trigger for India */}
       <a
-        href="https://wa.me/?text=Namaste%20ShubhTech%2C%20I%20am%20interested%20in%20discussing%20a%20website%20package%20(Starting%20at%20%E2%82%B96%2C999)."
+        href="https://wa.me/919699603323?text=Namaste%20ShubhTech%2C%20I%20am%20interested%20in%20discussing%20a%20website%20package%20(Starting%20at%20%E2%82%B96%2C999)."
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Direct WhatsApp Message"

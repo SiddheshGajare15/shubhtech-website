@@ -92,7 +92,7 @@ export default function Faq() {
             Have a question specific to your industry or setup?
           </p>
           <a
-            href="https://wa.me/?text=Hello%20ShubhTech%2C%20I%20have%20a%20question%20about%20your%20services."
+            href="https://wa.me/919699603323?text=Namaste%20ShubhTech%2C%20I%20have%20a%20question%20about%20your%20website%20services."
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-whatsapp"

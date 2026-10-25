@@ -160,7 +160,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="https://wa.me/?text=Namaste%20ShubhTech%2C%20I%20would%20like%20to%20discuss%20building%20a%20website%20for%20my%20business%20in%20India."
+                href="https://wa.me/919699603323?text=Namaste%20ShubhTech%2C%20I%20would%20like%20to%20discuss%20building%20a%20website%20for%20my%20business%20in%20India."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp"

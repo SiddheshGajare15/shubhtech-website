@@ -185,7 +185,7 @@ export default function Services({ onSelectService }) {
                 </a>
 
                 <a
-                  href={`https://wa.me/?text=Hi%20ShubhTech%2C%20I%20am%20interested%20in%20your%20${encodeURIComponent(service.title)}%20service.`}
+                  href={`https://wa.me/919699603323?text=Hi%20ShubhTech%2C%20I%20am%20interested%20in%20your%20${encodeURIComponent(service.title)}%20service.`}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{

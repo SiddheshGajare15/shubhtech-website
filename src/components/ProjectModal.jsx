@@ -145,7 +145,7 @@ export default function ProjectModal({ project, onClose }) {
               Close
             </button>
             <a
-              href={`https://wa.me/?text=Hi%20ShubhTech%2C%20I%20like%20your%20concept%20for%20${encodeURIComponent(project.title)}.%20Can%20we%20discuss%20building%20something%20similar%20for%20my%20business%3F`}
+              href={`https://wa.me/919699603323?text=Hi%20ShubhTech%2C%20I%20like%20your%20concept%20for%20${encodeURIComponent(project.title)}.%20Can%20we%20discuss%20building%20something%20similar%20for%20my%20business%3F`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-whatsapp"

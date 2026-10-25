@@ -48,14 +48,14 @@ export default function Footer() {
             </p>
 
             <a
-              href="https://wa.me/?text=Namaste%20ShubhTech%2C%20I%20am%20interested%20in%20building%20a%20website%20for%20my%20business."
+              href="https://wa.me/919699603323?text=Namaste%20ShubhTech%2C%20I%20am%20interested%20in%20building%20a%20website%20for%20my%20business."
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-whatsapp"
               style={{ padding: '0.55rem 1rem', fontSize: '0.825rem' }}
             >
               <MessageSquare size={15} />
-              <span>Direct WhatsApp Desk (+91)</span>
+              <span>WhatsApp: +91 96996 03323</span>
             </a>
           </div>
 
