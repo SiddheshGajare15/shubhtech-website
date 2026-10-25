@@ -1,5 +1,6 @@
 import React from 'react';
-import { Code2, MessageSquare, ArrowUp, Shield } from 'lucide-react';
+import { MessageSquare, ArrowUp, Shield } from 'lucide-react';
+import Logo from './Logo';
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -23,24 +24,8 @@ export default function Footer() {
           
           {/* Brand Info */}
           <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem', marginBottom: '1rem' }}>
-              <div
-                style={{
-                  width: '2.25rem',
-                  height: '2.25rem',
-                  borderRadius: '8px',
-                  background: 'linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: '#ffffff'
-                }}
-              >
-                <Code2 size={20} strokeWidth={2.4} />
-              </div>
-              <span style={{ fontSize: '1.25rem', fontWeight: 800, color: '#ffffff', letterSpacing: '-0.02em' }}>
-                Shubh<span style={{ color: '#38bdf8' }}>Tech</span>
-              </span>
+            <div style={{ marginBottom: '1.25rem' }}>
+              <Logo size="small" />
             </div>
 
             <p style={{ fontSize: '0.875rem', color: '#94a3b8', lineHeight: 1.6, marginBottom: '1.25rem' }}>

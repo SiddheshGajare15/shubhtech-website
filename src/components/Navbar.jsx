@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Code2, Menu, X, MessageSquare, ArrowRight } from 'lucide-react';
+import { Menu, X, MessageSquare, ArrowRight } from 'lucide-react';
+import Logo from './Logo';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -50,30 +51,8 @@ export default function Navbar() {
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '4.5rem' }}>
         
         {/* Logo */}
-        <a href="#" style={{ display: 'flex', alignItems: 'center', gap: '0.65rem', textDecoration: 'none' }}>
-          <div
-            style={{
-              width: '2.5rem',
-              height: '2.5rem',
-              borderRadius: '10px',
-              background: 'linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              color: '#ffffff',
-              boxShadow: '0 0 15px rgba(14, 165, 233, 0.4)'
-            }}
-          >
-            <Code2 size={22} strokeWidth={2.4} />
-          </div>
-          <div>
-            <span style={{ fontSize: '1.25rem', fontWeight: 800, color: '#ffffff', letterSpacing: '-0.02em', display: 'flex', alignItems: 'center', gap: '2px' }}>
-              Shubh<span style={{ color: '#38bdf8' }}>Tech</span>
-            </span>
-            <span style={{ display: 'block', fontSize: '0.68rem', color: '#94a3b8', letterSpacing: '0.08em', textTransform: 'uppercase', marginTop: '-3px' }}>
-              Web Development • India
-            </span>
-          </div>
+        <a href="#" style={{ textDecoration: 'none' }} title="ShubhTech - Web Development Agency India">
+          <Logo />
         </a>
 
         {/* Desktop Nav Links */}
